@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { FaShoppingCart, FaHeart, FaSearchPlus } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import {  FaSearchPlus } from "react-icons/fa";
 import Link from "next/link";
 import { Josefin_Sans } from "next/font/google"; // Use PascalCase for the font
 

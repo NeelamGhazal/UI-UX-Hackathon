@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { AiOutlineCheck } from "react-icons/ai";
+import { FaCheck } from "react-icons/fa";
 import { Lato } from "next/font/google"; // Import Lato font
 
 const lato = Lato({
@@ -63,23 +63,23 @@ const Discountitem = () => {
       {/* Features List */}
       <div className="grid grid-cols-2 gap-y-4 mb-6">
         <div className="flex items-center">
-          <span className="text-[#151875] text-lg mr-2"><AiOutlineCheck /></span>
+          <span className="text-[#151875] text-xs mr-2"><FaCheck /></span>
           <p className="text-[#7E81A2] text-sm">
             Material expose like metals
           </p>
         </div>
         <div className="flex items-center">
-          <span className="text-[#151875] text-lg mr-2"><AiOutlineCheck /></span>
+          <span className="text-[#151875] text-xs mr-2"><FaCheck /></span>
           <p className="text-[#7E81A2] text-sm">
             Clear lines and geometric figures
           </p>
         </div>
         <div className="flex items-center">
-          <span className="text-[#151875] text-lg mr-2"><AiOutlineCheck /></span>
+          <span className="text-[#151875] text-xs mr-2"><FaCheck /></span>
           <p className="text-[#7E81A2] text-sm">Simple neutral colours.</p>
         </div>
         <div className="flex items-center">
-          <span className="text-[#151875] text-lg mr-2"><AiOutlineCheck /></span>
+          <span className="text-[#151875] text-xs mr-2"><FaCheck /></span>
           <p className="text-[#7E81A2] text-sm">
             Material expose like metals
           </p>

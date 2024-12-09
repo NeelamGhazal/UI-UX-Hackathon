@@ -1,5 +1,7 @@
 import React from "react";
-import { AiOutlineShoppingCart, AiOutlineHeart, AiOutlineSearch } from "react-icons/ai"; 
+import { BsCart2 } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
 import { Lato } from "next/font/google"; // Import Lato font
 
 const lato = Lato({
@@ -71,15 +73,15 @@ const LatestProducts = () => {
       <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>
@@ -123,15 +125,15 @@ const LatestProducts = () => {
        <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>
@@ -174,15 +176,15 @@ const LatestProducts = () => {
     <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>
@@ -225,15 +227,15 @@ const LatestProducts = () => {
     <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>
@@ -276,15 +278,15 @@ const LatestProducts = () => {
     <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>
@@ -327,15 +329,15 @@ const LatestProducts = () => {
     <div className="absolute bottom-6 left-4 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
       {/* Cart Button */}
       <button className="w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
-       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"> <AiOutlineShoppingCart /></span>
+       <span  className="text-base bg-[#EEEFFB] text-[#2F1AC4] mt-2"><BsCart2 /></span>
       </button>
       {/* Heart Button */}
       <button className="flex items-center justify-center">
-       <span className="text-base text-[#2F1AC4] mt-2"> <AiOutlineHeart  /></span>
+       <span className="text-base text-[#2F1AC4] mt-2"><FaRegHeart /></span>
       </button>
       {/* Search Button */}
       <button className="flex items-center justify-center">
-      <span className="text-base text-[#2F1AC4] mt-2">  <AiOutlineSearch  /></span>
+      <span className="text-base text-[#2F1AC4] mt-2"><IoSearch /></span>
       </button>
     </div>
   </div>

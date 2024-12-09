@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { FC } from "react";
-import { AiOutlineShoppingCart, AiOutlineHeart, AiOutlineSearch } from "react-icons/ai"; // Importing icons
+import { BsCart2 } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa";
+import { IoSearch } from "react-icons/io5";
 
 interface ProductCardProps {
   imageSrc: string;
@@ -38,10 +40,10 @@ const ProductCard: FC<ProductCardProps> = ({
         {/* Icons on Top Left of Image Section */}
         <div className="absolute top-3 left-3 flex space-x-3 text-gray-500 group-hover:opacity-100  opacity-0 transition-all duration-300">
           <div className="bg-[#EEEFFB] w-10 h-10 rounded-3xl flex  place-content-center ">
-          <span  className="text-2xl text-[#2F1AC4] mt-2"><AiOutlineShoppingCart /></span>
+          <span  className="text-2xl text-[#2F1AC4] mt-2"><BsCart2 /></span>
           </div>
-          <span  className="text-2xl text-[#1DB4E7] mt-2"><AiOutlineHeart /></span>
-          <span className="text-2xl text-[#1DB4E7] mt-2" ><AiOutlineSearch /></span>
+          <span  className="text-2xl text-[#1DB4E7] mt-2"><FaRegHeart /></span>
+          <span className="text-2xl text-[#1DB4E7] mt-2" ><IoSearch /></span>
         </div>
 
         {/* View Details Button at the Bottom of the Image Section */}
