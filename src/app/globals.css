@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap'); */
+/* Vector 14 */
+.discount{
+position: absolute;
+width: 136.56px;
+height: 138.49px;
+left: 1584px;
+top: 282px;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+background: #00C1FE;
+border: 1px solid #00C1FE;
 }

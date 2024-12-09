@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// const defaultTheme = require("tailwindcss/defaultTheme");
 
 export default {
   content: [
@@ -8,9 +9,18 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "414px", 
+      },
+      fontFamily: {
+        josefin: ["Josefin Sans", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      boxShadow: {
+        custom: '0px 8px 40px 0px #31208A0D', // Your custom box-shadow
       },
     },
   },
